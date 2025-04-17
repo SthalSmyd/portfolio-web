@@ -1,0 +1,44 @@
+# === Python / Django ===
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.pot
+*.pyc
+db.sqlite3
+*.pyc
+
+# Django migrations
+**/migrations/
+!*/migrations/__init__.py
+
+# === Node.js / Next.js ===
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === Docker ===
+*.pid
+*.sock
+*.db
+.env.docker
+docker-compose.override.yml
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === VSCode / Editor ===
+.vscode/
+.idea/
+*.code-workspace
+
+# === Others ===
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
