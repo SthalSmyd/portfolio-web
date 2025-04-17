@@ -110,5 +110,16 @@ docker compose -f docker-compose.local.yml down
 > domain-example.com などのドメイン名はすべてサンプルであり、実際の運用ドメインや証明書は含まれていません。
 
 
+---
 
+### ⚠️ 注意：Windowsで編集する方へ
+
+このプロジェクトには `entrypoint.sh` や `wait-for-it.sh` など、**シェルスクリプト（.sh）ファイル**が含まれています。  
+Windows環境でファイルを編集した場合、**改行コードが `CRLF` になってしまうと、Docker環境で実行エラーになる可能性があります。**
+
+#### ✅ 解決策：
+- **改行コードを LF（Unix形式）に変更**してください。
+  - VSCodeなら、右下の「CRLF」→「LF」に変更して保存するだけでOKです！
+
+> 特に `entrypoint.sh` が `no such file or directory` になる場合は、改行コードが原因の可能性が高いです。
 
