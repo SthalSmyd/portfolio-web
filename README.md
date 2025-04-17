@@ -62,8 +62,7 @@ docker compose -f docker-compose.local.yml up -d
 - `backend` は Django + DRF（8000番ポート）
 - `db` は PostgreSQL（5432番ポート）
 - `nginx`（必要に応じて）でリバースプロキシも可能
-起動したのち、30秒程度時間をおいてからアクセスください。
-
+  
 > ✅ 起動完了後、少し待ってから`localhost:3000`(http://localhost:3000)  にアクセスしてください。
 
 ---
