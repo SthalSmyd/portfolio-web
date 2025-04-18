@@ -122,3 +122,8 @@ Windows環境でファイルを編集した場合、**改行コードが `CRLF` 
 
 > 特に `entrypoint.sh` が `no such file or directory` になる場合は、改行コードが原因の可能性が高いです。
 
+## 📇 作者情報
+
+Created with 💖 by Masashi Fujimoto  
+GitHub: [https://github.com/SthalSmyd](https://github.com/SthalSmyd)  
+お問い合わせは Issue または SNS にてどうぞ！
